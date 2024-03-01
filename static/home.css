@@ -1,0 +1,216 @@
+
+body{
+    
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #142424; 
+    height: 5.8vw;
+    padding-top: 0.5vw;
+    inset: 0;
+    z-index: 1100;
+}
+
+.left-links{  
+    flex: 1 1 200px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 2vw;
+    padding: 2vw;
+    text-align: center;
+    color: #47B298;
+          
+}
+
+nav a:hover{
+    color: #7ae4ca;
+}
+
+#icon{
+    padding-left: 2vw;
+    font-size: 4vw;
+    font-family: Gabriola, Times, serif;
+    text-shadow: -0.4px 0.4px 0 #47B298, 
+                0.4px 0.4px 0 #47B298, 
+                0.4px -0.4px 0 #47B298, 
+                -0.4px -0.4px 0 #47B298;
+}
+
+.banner{
+    position: fixed;
+    display: flex;
+    text-align: center;  
+}
+
+
+.left{
+    position: absolute;
+    left: 1.8vw;
+    top: 8vw;
+    color: white;
+    font-size: 7vw;
+    padding: 15px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.flbut{
+    position: absolute;
+    left: 1.8vw;
+    top: 43vw; 
+    padding: 15px;
+    padding-left: 30px;
+}
+    
+
+
+.flbut a{
+    color: white;
+    background-color: #142424;
+    font-size: 2.5vw;
+    padding:1vw 5vw;
+    text-decoration: none; 
+    border-radius: 3vw 3vw 3vw 3vw;
+    border-color: whitesmoke;
+    border: solid;
+}
+
+.flbut:hover{
+    transform: scale(1.02);   
+}
+
+.sline{
+    font-size: 2vw;
+    margin-top: 2vw;
+}
+
+.div2{
+    /*border: red 2px solid;*/
+    margin-top: -5px;
+    display: flex;
+}
+   
+.flw a{
+    position: absolute;
+    left: 5vw;
+    top: 62vw;
+    background-image: url("pastlpnkorgcarnation.jpg.jpg");
+    background-size: contain;
+    width: 28vw;
+    height: 40vw;
+    background-repeat: no-repeat; 
+    text-decoration: none; 
+    text-align: center;
+}
+
+.plnt a{
+    position: absolute;
+    left: 35vw;
+    top: 62vw;
+    background-image: url("tree.jpg");
+    background-size: contain;
+    width: 28vw;
+    height: 40vw;
+    background-repeat: no-repeat; 
+    text-decoration: none; 
+    text-align: center;
+
+}
+
+.shp a{
+    position: absolute;
+    left: 65vw;
+    top: 62vw;
+    background-image: url("shp.jpg");
+    background-size: contain;
+    width: 28vw;
+    height: 40vw;
+    background-repeat: no-repeat;  
+    text-decoration: none;
+    text-align: center; 
+}
+
+a p{
+    padding-top: 33vw;
+    color: #2A3935;
+    font-size: 2.5vw;
+}
+
+.flw a:hover{
+    transform: scale(1.02);   
+}
+
+.plnt a:hover{
+    transform: scale(1.02);   
+}
+
+.shp a:hover{
+    transform: scale(1.02);   
+}
+
+.footer{
+    background-image: url(footerbg.png);
+    padding: 30px 0;
+    color:azure;
+}
+
+.footer ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    margin: 20px;
+}
+
+.footer li{
+    padding: 0 10px;
+}
+
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+    padding: 10px;
+    
+}
+
+.social{
+    position: relative;
+    left: 43%;
+    margin-bottom: 2vw;
+
+}
+
+.social a{
+    color: azure;
+    margin: 1vw;
+}
+
+.footer ul a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+
+

@@ -1,0 +1,168 @@
+body{
+    background-color: aquamarine;
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #142424; 
+    height: 6vw;
+    padding-top: 0.5vw;
+    inset: 0;
+    z-index: 1100;
+}
+
+.left-links{  
+    flex: 1 1 200px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2vw;
+    padding: 2vw;
+    text-align: center;
+    color: #47B298;
+       
+}
+
+#icon{
+    padding-left: 2vw;
+    font-size: 4vw;
+    font-family: Gabriola, Times, serif;
+    text-shadow: -0.4px 0.4px 0 #47B298, 
+                0.4px 0.4px 0 #47B298, 
+                0.4px -0.4px 0 #47B298, 
+                -0.4px -0.4px 0 #47B298;
+}
+
+.plninfo{
+    background-image: url(plntmotif.png);
+    margin-top: 7vw;
+}
+
+table{
+    padding: 25px;
+    margin: 3.5vw 3vw;
+    font-size: 2.1vw;
+    margin-top: 1.5vw;
+    width: 94%;
+    background-color: #47B298;
+    border-radius: 6vw; 
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    color: #142424;  
+    border: solid 2px #246463;    
+}
+
+.infobox {
+    margin: 10px;
+    width: 100%;
+    margin-top: 60px;
+    border-radius: 6vw;
+    padding-right: 5px;
+    position: relative;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.pho{
+    height: 36vw;
+    width: 45vw;
+    margin: 2vw; 
+    position: relative;
+    left: 25%;
+    border-radius: 6vw;
+    box-shadow: 10px 10px 20px #246463;   
+}
+
+.tname{
+    font-size: 3vw;
+    font-weight: bold;
+    
+}
+
+.load_more{
+    position: relative;
+    left: 37%;
+    padding: 30px;
+    margin: 0;
+    
+}
+    
+.load_more a{
+    color:#142424;
+    background-color: #47B298;
+    font-size: 2.5vw;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    padding:1vw 5vw;
+    text-decoration: none; 
+    border-radius: 3vw 3vw 3vw 3vw;
+    border: solid #246463;
+}
+
+.load_more:hover{
+    transform: scale(1.02);   
+}
+
+.footer{
+    background-image: url(footerbg.png);
+    padding: 30px 0;
+    color:azure;
+}
+
+.footer ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    margin: 20px;
+}
+
+.footer li{
+    padding: 0 10px;
+}
+
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+    padding: 10px;
+    
+}
+
+.social{
+    position: relative;
+    left: 43%;
+    margin-bottom: 2vw;
+
+}
+
+.social a{
+    color: azure;
+    margin: 1vw;
+}
+
+.footer ul a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}

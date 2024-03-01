@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='../static/signup.css')}}">
+	<script src="https://kit.fontawesome.com/06907ca0aa.js" crossorigin="anonymous"></script>
+	<title>SignUp page</title>
+</head>
+<body>
+		<div class="float_container">
+		    <div class="float_child">
+                <div class="simg">
+                    <img src="static/flwr1.png" style="width: 100%; height: 603px;">
+                </div>
+            </div>
+
+		    <div class="float_child">
+		        <div class="signbox">
+			    <h3 id="one">Register Here!</h3>
+			        <form action="/insertrec" method="POST">
+				    <h3 class="h">Username</h3><input type="text" name= "uname" autocomplete="off">
+				    <h3 class="h">Email</h3><input type="text" name="email" autocomplete="off">
+				    <h3 class="h">Password</h3><input type="password" name="pin" autocomplete="off">
+
+	        	    <table>
+			        <tr>
+			        	<td align="center"><input type="Reset" value="Reset"></td>
+				        <td align="center"><input type="submit" value="Sign Up"></td>
+			        </tr>
+		            </table>
+
+				    <h3 class="su">Already have an account !!!<br><i class="fas fa-sign-in fa-sm"></i><a href="/">  Log In</a></h3>
+			        </form>
+                </div>
+            </div>
+
+        </div>
+</body>
+</html>

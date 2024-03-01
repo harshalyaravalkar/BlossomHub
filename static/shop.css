@@ -1,0 +1,77 @@
+body{
+    background-image: url("shpbg.png");
+    background-size: 180px;
+    background-color: #47B298;
+    margin: 0;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.ann{
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+p{
+    font-size: 70px;
+    font-family: Gabriola, Times, serif;
+    font-weight: 800;
+    color: #142424;
+    margin: 200px 100px;
+}
+
+.footer{
+    background-image: url(footerbg.png);
+    padding: 30px 0;
+    color:azure;
+}
+
+.footer ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    margin: 20px;
+}
+
+.footer li{
+    padding: 0 10px;
+}
+
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+    padding: 10px;
+    
+}
+
+.social{
+    position: relative;
+    left: 43%;
+    margin-bottom: 2vw;
+
+}
+
+.social a{
+    color: azure;
+    margin: 1vw;
+}
+
+.footer ul a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}

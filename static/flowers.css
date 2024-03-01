@@ -1,0 +1,171 @@
+body{
+    background-color: aquamarine;
+    background-image: url("flwrmotif.png");
+    margin: 0;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #142424; 
+    height: 6vw;
+    padding-top: 0.5vw;
+    inset: 0;
+    z-index: 1100;
+}
+
+.left-links{  
+    flex: 1 1 200px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2vw;
+    padding: 2vw;
+    text-align: center;
+    color: #47B298;   
+}
+
+#icon{
+    padding-left: 2vw;
+    font-size: 4vw;
+    font-family: Gabriola, Times, serif;
+    text-shadow: -0.4px 0.4px 0 #47B298, 
+                0.4px 0.4px 0 #47B298, 
+                0.4px -0.4px 0 #47B298, 
+                -0.4px -0.4px 0 #47B298;
+}
+
+.flwinfo{
+    margin-top: 7vw;
+    margin-bottom: 10vw;
+}
+
+table{
+    width: 95%;
+    margin: 3vw 2.8vw;
+    font-size: 2.1vw;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    color: #142424;
+    float: left;
+   
+
+}
+
+.tname{
+    font-size: 4.5vw;
+    font-weight: bold;
+    color: #D5AD6D; /*if no support for background-clip*/
+background: -webkit-linear-gradient(transparent, transparent),
+-webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+background-clip: -o-linear-gradient(transparent, transparent);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.pho {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2vw;
+    border-radius: 6vw;
+    box-shadow: 10px 10px 20px #246463;   
+}
+ 
+.infobox {
+    background-color: #47B298;
+    margin: 10px;
+    width: 97%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.8fr 1.5fr;
+    column-gap: 5px;
+    margin-top: 60px;
+    border-radius: 6vw;
+    padding-right: 2px;
+    box-shadow: 10px 10px 20px #246463;
+}
+
+.load_more{
+    position: relative;
+    left: 37%;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    
+}
+    
+.load_more a{
+    color:#142424;
+    background-color: #47B298;
+    font-size: 2.5vw;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    padding:1vw 5vw;
+    text-decoration: none; 
+    border-radius: 3vw 3vw 3vw 3vw;
+    border: solid #246463;
+}
+
+.load_more:hover{
+    transform: scale(1.02);   
+}
+
+.footer{
+    background-image: url(footerbg.png);
+    padding: 30px 0;
+    color:azure;
+}
+
+.footer ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    margin: 20px;
+    margin-top: 0;
+}
+
+.footer li{
+    padding: 0 10px;
+}
+
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+    padding: 10px;
+    
+}
+
+.social{
+    position: relative;
+    width: 100%;
+    left: 43%;
+    margin-bottom: 2vw;
+
+}
+
+.social a{
+    color: azure;
+    margin: 1vw;
+}
+
+.footer ul a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
