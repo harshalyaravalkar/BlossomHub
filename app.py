@@ -29,17 +29,7 @@ def insertdata(t):
     db.commit()
     db.close()
 
-'''def alldata():
-    db = getconnect()
-    cr = db.cursor()
 
-    sql = "select id, username, email, password from demouser"
-    cr.execute(sql)
-    userlist = cr.fetchall()
-
-    db.commit()
-    db.close()
-    return userlist'''
 
 
 
